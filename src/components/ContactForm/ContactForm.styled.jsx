@@ -15,9 +15,20 @@ export const Label = styled.label`
   font-size: 12px;
 `;
 
+export const FieldInput = styled.input`
+  padding: 5px;
+  margin-top: 5px;
+
+  border-radius: 5px;
+`;
+
 export const Button = styled.button`
   background-color: #21c53c;
   padding: 8px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
 
   :hover {
     background-color: #0c9422;
