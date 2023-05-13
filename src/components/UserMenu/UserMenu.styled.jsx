@@ -11,7 +11,7 @@ export const Text = styled.p`
 
   color: #ffffff;
 
-  @media (max-width: 520px) {
+  @media (max-width: 380px) {
     display: none;
   }
 `;
