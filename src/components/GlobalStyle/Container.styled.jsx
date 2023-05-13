@@ -10,5 +10,5 @@ export const Container = styled.main`
   max-width: 768px;
   border-radius: 20px;
 
-  background-color: #1a202c;
+  background-color: #1a202c89;
 `;

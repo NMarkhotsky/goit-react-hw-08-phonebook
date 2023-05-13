@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const Text = styled.p`
   font-size: 22px;
 
-  color: #000000;
+  color: #ffffff;
 
   @media (max-width: 520px) {
     display: none;

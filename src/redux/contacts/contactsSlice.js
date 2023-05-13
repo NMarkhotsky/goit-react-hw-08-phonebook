@@ -13,9 +13,15 @@ const handleRejected = (state, action) => {
   state.error = action.payload;
 };
 
+const initialState = {
+  items: [],
+  isLoading: false,
+  error: null,
+};
+
 const contactsSlice = createSlice({
   name: 'contacts',
-  initialState: { items: [], isLoading: false, error: null },
+  initialState,
   extraReducers: builder =>
     builder
       .addCase(fetchContacts.fulfilled, (state, { payload }) => {

@@ -5,7 +5,6 @@ export const GlobalStyle = createGlobalStyle`
 
 body {
   margin: 0;
-  padding: 15px;
 
 @media (max-width: 475px) {
     font-size: 12px;

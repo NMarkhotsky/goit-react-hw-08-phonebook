@@ -10,14 +10,13 @@ export const Form = styled.form`
   flex-direction: column;
   max-width: 320px;
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffffca;
   padding: 20px;
-  box-shadow: 0px 0px 0px 4px rgba(52, 52, 53, 0.185);
+  /* box-shadow: 0px 0px 0px 0px rgba(52, 52, 53, 0.185); */
   border-radius: 10px;
-  /* filter: drop-shadow(46px 36px 24px #4090b5)
-    drop-shadow(-55px -40px 25px #9e30a9); */
-  filter: drop-shadow(#a7a930 111px 37px 49px)
-    drop-shadow(#404eb5 -111px -37px 49px);
+
+  /* filter: drop-shadow(#a7a930 111px 37px 49px)
+    drop-shadow(#404eb5 -111px -37px 49px); */
 `;
 
 export const Span = styled.span`
