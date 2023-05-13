@@ -11,4 +11,5 @@ export const Container = styled.main`
   border-radius: 20px;
 
   background-color: #1a202c89;
+  backdrop-filter: blur(5px);
 `;

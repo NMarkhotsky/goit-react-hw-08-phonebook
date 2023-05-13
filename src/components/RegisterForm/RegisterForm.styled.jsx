@@ -10,13 +10,10 @@ export const Form = styled.form`
   flex-direction: column;
   max-width: 320px;
   width: 100%;
-  background-color: #ffffffca;
+  background-color: #ffffff8e;
   padding: 20px;
-  /* box-shadow: 0px 0px 0px 0px rgba(52, 52, 53, 0.185); */
   border-radius: 10px;
-
-  /* filter: drop-shadow(#a7a930 111px 37px 49px)
-    drop-shadow(#404eb5 -111px -37px 49px); */
+  backdrop-filter: blur(5px);
 `;
 
 export const Span = styled.span`
