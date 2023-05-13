@@ -1,4 +1,4 @@
-import { Container } from 'components/Layout.styled';
+import { Container } from 'components/Layout/Layout.styled';
 import { Title } from './Home.styled';
 
 export default function Home() {

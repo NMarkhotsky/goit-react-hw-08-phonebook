@@ -4,7 +4,7 @@ import { useAuth } from 'hooks/useAuth';
 import { Route, Routes } from 'react-router-dom';
 import { RestrictedRoute } from './RestrictedRoute';
 import { PrivateRoute } from './PrivateRoute';
-import { Layout } from './Layout';
+import { Layout } from './Layout/Layout';
 import { refreshUser } from 'redux/auth/operations';
 import { ContactsLoader } from './Loader/Loader';
 import { BackgroundVideo } from './VideoBg/VideoBg';
