@@ -5,7 +5,15 @@ import { Video } from './VideoBg.styled';
 export const BackgroundVideo = () => {
   return (
     <div>
-      <Video src={videoBg} autoPlay loop muted />
+      <Video
+        autoPlay
+        loop
+        muted
+        playsinline
+        preload="yes"
+        poster={videoBg}
+        src={videoBg}
+      />
     </div>
   );
 };
